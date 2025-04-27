@@ -1,0 +1,57 @@
+/* src/components/pages/InvoiceList.module.css */
+
+.invoiceTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 1.0em;
+    text-align: left;
+}
+
+.invoiceTable thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+}
+
+.invoiceTable th,
+.invoiceTable td {
+    padding: 12px 15px;
+}
+
+.invoiceTable tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.invoiceTable tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.invoiceTable tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+
+.addButton {
+    display: inline-block;
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    background-color: #009879;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.actionButton {
+    margin-right: 10px;
+    padding: 5px 10px;
+    background-color: #009879;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.actionButton:hover {
+    background-color: #007e65;
+}
